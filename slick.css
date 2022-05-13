@@ -5,9 +5,9 @@
 
 .slider-prev,
   .slider-next {
-    border: 0.1875rem solid #333;
-    width: 1.875rem;
-    height: 1.875rem;
+    border: 3px solid #333;
+    width: 30px;
+    height: 30px;
 
     border-bottom: unset;
     border-right: unset;
@@ -23,14 +23,27 @@
   left: -7%;
   z-index: 1;
   transform: rotatez(-45deg);
-  top: 3.75rem;
+  top: 60px;
 }
 .slider-next {
  
   right: -7%;
   transform: rotatez(135deg);
-  top: 3.4375rem;
+  top: 55px;
 }
+@media (max-width:912px){
+  .slider-prev {
+
+  
+    top: 85px;
+  }
+  .slider-next {
+   
+  
+    top: 85px;
+  }
+}
+
 
 .slick-prev:before,
 .slick-next:before {
@@ -80,7 +93,7 @@ li.slick-active {
 
 @media (max-width:912px) {
   :root {
-      font-size: 9px;
+      font-size: 12px;
   }
 
   .container{

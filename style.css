@@ -137,7 +137,9 @@
     margin-left: 10%;
     padding-left: 20px;
 }
-
+.question-text img{
+    width: 100%;
+}
 
 .question-text p span{
     font-size: 25px;
@@ -278,16 +280,16 @@ justify-content: center;
 }
 
 .base1{
-  background-color: #fc0069;
+
   background-color: #EFEFEE;
 }
 
 .base2{
-    background-color: #50fc00;
+    
     background-color: #EFEFEE;
 }
 .base3{
-        background-color: #0058fc;
+      
         background-color: #EFEFEE;
 }
 
@@ -316,6 +318,7 @@ gap: 20px;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.5px;
+    font-style: italic;
 }
 
 .sliderBase .text-base .author{

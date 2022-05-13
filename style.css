@@ -301,11 +301,7 @@ gap: 20px;
     line-height: 20px;
     letter-spacing: 0.5px;
 }
-/* .sliderBase .text-base .bruna{
-    font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 0.5px;
-} */
+
 .sliderBase .text-base .author{
     font-size: 16px;
    
@@ -743,7 +739,21 @@ place-items: center;
 
 
 
+@media (min-width:912px) and (max-width:1680px) {
+   .container{
+       width: 87%;
+   }
+}
 
+@media (min-width:950px) and (max-width:1400px) {
+    .produto{
+        width: 300px;
+        height: 650px;
+      
+       border: 1px solid rgb(224, 224, 224);
+    }
+ }
+ 
 
 
 

@@ -39,6 +39,7 @@
     color: var(--colorPreto);
     --verde:#60edb3;
     font-family: apercuLight;
+  
 }
 
 /* .body{
@@ -287,6 +288,14 @@ justify-content: center;
     display: grid;
     place-items: center;
 }
+
+
+.text-video, .text-top-slide,.text-solo {
+  
+    font-family: apercuRegular;
+    line-height: 2.5rem;
+    font-size: 1.5625rem;
+}
 @media (max-width:992px){
 
 
@@ -386,7 +395,7 @@ justify-content: center;
 
     .text-video, .text-top-slide,.text-solo {
         font-size: 18px;
-        font-family: apercuMedium;
+        font-family: apercuRegular;
         text-align: start;
         line-height: 30px;
     }
@@ -587,7 +596,7 @@ place-items: center;
 /* footer */
 
 .footer{
-    margin-top: 9.375rem;
+    margin-top: 6rem;
     width: 100vw;
     height: 4.375rem;
   
@@ -659,6 +668,12 @@ place-items: center;
         background-image: url('/assets/thierry.png');
         background-size: cover;
         background-position: -100px 0;
+    }
+
+    .footer{
+     
+        font-size: 11px;
+       
     }
     
 }

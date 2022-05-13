@@ -263,13 +263,16 @@ justify-content: center;
 
 .base1{
   background-color: #fc0069;
+  background-color: #EFEFEE;
 }
 
 .base2{
     background-color: #50fc00;
+    background-color: #EFEFEE;
 }
 .base3{
         background-color: #0058fc;
+        background-color: #EFEFEE;
 }
 
 
@@ -279,6 +282,42 @@ justify-content: center;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
+}
+
+
+
+
+.sliderBase .text-base{
+ padding: 0 30px;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-direction: column;
+gap: 20px;
+}
+
+.sliderBase .text-base .text{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+/* .sliderBase .text-base .bruna{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+} */
+.sliderBase .text-base .author{
+    font-size: 16px;
+   
+    font-family: apercuMedium;
+}
+
+.sliderBase .text-base .author div{
+  display: inline-block;
+  width: 13px;
+  height: 2px;
+  background-color: #2B2823;
+ margin-bottom: 4px;
 }
 /* fim slide */
 
@@ -302,19 +341,19 @@ justify-content: center;
     .section-slide-1-content{
   
         width: 100%;
-        height: 200px;
+        height: 250px;
   
     
     }
     .sliderBase{
         width: 86%;
-        height: 200px;
+        height: 250px;
        
     
       }
     .text-base{
         width: 100%;
-        height: 200px;
+        height: 250px;
     
         
     }

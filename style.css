@@ -629,9 +629,9 @@ gap: 20px;
 .btn a{
    text-decoration: none;
    padding: 4px 40px;
-   border: 1px solid #333;
+   /* border: 1px solid #333; */
    font-size: 26px;
-
+background-color: var(--verde);
    color: #333;
    border-radius: 6px;
 }
